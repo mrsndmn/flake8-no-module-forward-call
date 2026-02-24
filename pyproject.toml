@@ -8,17 +8,16 @@ version = "0.1.0"
 description = "Flake8 plugin to prohibit calling .forward() on objects (use obj(inputs) instead so DDP backward hooks run)"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "Apache-2.0"}
-authors = [{ name = "Author", email = "author@example.com" }]
+license = "Apache-2.0"
+authors = [{ name = "Dmitrii Tarasov", email = "d.tarasov@airi.net" }]
 classifiers = [
   "Framework :: Flake8",
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: Apache Software License",
   "Topic :: Software Development :: Quality Assurance",
 ]
 
 [project.urls]
-Homepage = "https://example.com"
+Homepage = "https://github.com/mrsndmn/flake8-no-model-forward-call"
 
 [project.entry-points."flake8.extension"]
 NMF001 = "flake8_no_module_forward_call.plugin:NoModuleForwardCallChecker"
