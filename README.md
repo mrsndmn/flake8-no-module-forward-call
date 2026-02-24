@@ -1,9 +1,9 @@
-# flake8-no-model-forward-call
+# flake8-no-module-forward-call
 
-[![PyPI version](https://img.shields.io/pypi/v/flake8-no-model-forward-call.svg)](https://pypi.org/project/flake8-no-model-forward-call/)
-[![Python versions](https://img.shields.io/pypi/pyversions/flake8-no-model-forward-call.svg)](https://pypi.org/project/flake8-no-model-forward-call/)
-[![License](https://img.shields.io/pypi/l/flake8-no-model-forward-call.svg)](https://github.com/mrsndmn/flake8-no-model-forward-call/blob/main/LICENSE)
-[![CI](https://github.com/mrsndmn/flake8-no-model-forward-call/actions/workflows/ci.yml/badge.svg)](https://github.com/mrsndmn/flake8-no-model-forward-call/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/flake8-no-module-forward-call.svg)](https://pypi.org/project/flake8-no-module-forward-call/)
+[![Python versions](https://img.shields.io/pypi/pyversions/flake8-no-module-forward-call.svg)](https://pypi.org/project/flake8-no-module-forward-call/)
+[![License](https://img.shields.io/pypi/l/flake8-no-module-forward-call.svg)](https://github.com/mrsndmn/flake8-no-module-forward-call/blob/main/LICENSE)
+[![CI](https://github.com/mrsndmn/flake8-no-module-forward-call/actions/workflows/ci.yml/badge.svg)](https://github.com/mrsndmn/flake8-no-module-forward-call/actions/workflows/ci.yml)
 
 A [flake8](https://flake8.pycqa.org/) plugin that forbids calling `.forward()` directly on PyTorch `nn.Module` objects.
 
@@ -24,14 +24,14 @@ This bug is easy to introduce, hard to notice (training may appear to work), and
 ## Installation
 
 ```bash
-pip install flake8-no-model-forward-call
+pip install flake8-no-module-forward-call
 ```
 
 For development / editable install:
 
 ```bash
-git clone https://github.com/mrsndmn/flake8-no-model-forward-call.git
-cd flake8-no-model-forward-call
+git clone https://github.com/mrsndmn/flake8-no-module-forward-call.git
+cd flake8-no-module-forward-call
 pip install -e .
 ```
 

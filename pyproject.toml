@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mrsndmn/flake8-no-model-forward-call"
+Homepage = "https://github.com/mrsndmn/flake8-no-module-forward-call"
 
 [project.entry-points."flake8.extension"]
 NMF001 = "flake8_no_module_forward_call.plugin:NoModuleForwardCallChecker"
