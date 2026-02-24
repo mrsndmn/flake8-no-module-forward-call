@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Flake8 plugin to prohibit calling .forward() on objects (use obj(inputs) instead so DDP backward hooks run)"
 readme = "README.md"
 requires-python = ">=3.8"
-license = "Apache-2.0"
+license = {text = "Apache-2.0"}
 authors = [{ name = "Dmitrii Tarasov", email = "d.tarasov@airi.net" }]
 classifiers = [
   "Framework :: Flake8",
