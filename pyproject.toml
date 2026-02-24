@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flake8-no-module-forward-call"
-version = "0.1.0"
+version = "0.1.1"
 description = "Flake8 plugin to prohibit calling .forward() on objects (use obj(inputs) instead so DDP backward hooks run)"
 readme = "README.md"
 requires-python = ">=3.8"
